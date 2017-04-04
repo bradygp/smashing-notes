@@ -19,5 +19,5 @@ Pattern Libraries could very well be the end of the war between the two discipli
 
 #### 1100 Morning Break
 
-#### 1130 CSS and Interactive Email - (Mark Robbins)[https://smashingconf.com/speakers/mark-robbins]
+#### 1130 CSS and Interactive Email - [Mark Robbins](https://smashingconf.com/speakers/mark-robbins)
 Email has often been overlooked as simplistic, outdated and limited but with modern webkit based email clients accounting for over 60% of opens the possibilities have really opened up. The new age of email is a fully interactive experience based in modern CSS (with a solid fallback for Outlook).
