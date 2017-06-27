@@ -45,6 +45,17 @@ The Safari browswer for iOS provides a "Top Hit" selection whenever a user is in
 Knowing the difference between the active and the passive phase, you can optimize your site so that it places the user is the active phase as quickly as possible (thusly minimzing the amount of time in the passive phase).
 
 ### Preemptive Start
+The most time-intensive part of nearly every website is the amount of time it takes to load a page, an about 90% of that time can be attributed to getting all html, js, css, and other assets to through the network to the user's computer. By smartly requesting the resources your webpages need you can drasticaly increase load times. Take a look at the following.
+    
+    * dns-prefetch
+    * preconnect
+    * prerender
+    * prefetch
+    * preload
+    * async
+    * defer
+reduce your javascript/css usage
+only load the js you need, have well-formed html, then load non-essential css/js after the onLoad
 ### Early Completion
 ### Progress Indicators
 
@@ -54,5 +65,4 @@ Knowing the difference between the active and the passive phase, you can optimiz
 ## ADDITIONAL INFORMATION
  - [Psychology of Queueing: A Case Study of Universal Studios Singapore](http://www.iaapa.org/news/funworld/funworld-magazine/psychology-of-queueing)
  - [Why Performance Matters, Part 2](https://www.smashingmagazine.com/2015/11/why-performance-matters-part-2-perception-management/)
- - [Why Performance Matters, Part 1](https://www.smashingmagazine.com/2015/09/why-performance-matters-the-perception-of-time/)
- - [Why Performance Matters, Part 3](https://www.smashingmagazine.com/2015/12/performance-matters-part-3-tolerance-management/)
+ - [prefetch & friends slides](https://docs.google.com/presentation/d/18zlAdKAxnc51y_kj-6sWLmnjl6TLnaru_WH0LJTjP-o/present#slide=id.g33211238_0_2)
