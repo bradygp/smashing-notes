@@ -3,6 +3,8 @@
 ## Monolouge
 Performance isn't really about milliseconds and kilobytes, it's about perception. If you are waiting for a bus for 15 minutes, but it feels like 30, does that make it better? People hate waiting.
 
+Amazon.com feels like it loads in about 2s - 3s, but it isn't fully loaded for ~15s. Performance is not the same as perception.
+
 ## LET'S DO AN ACTIVITY
 Give everyone a post-it note and pen, tell them we will all be waiting and the writing down how long they think they waited for. Participants shouldn't mentally keep track of the time, or watch a clock (that's cheating). At the end of some time between 30s - 2min have the participants write down how long they waited and compute the average. 
 
@@ -40,6 +42,11 @@ Youtube makes an effort to get users into the active phase as quickly as possibl
 The Safari browswer for iOS provides a "Top Hit" selection whenever a user is inputting a new url into the search bar. The top hit is the website safari thinks is the most likely one you are trying to type in. As soon as any website appears as an option for the Top Hit, Safari will begin downloading the website in the background. If the user does chose that site, their website will already be loaded on the phone.
 
 ## What can you do?
+Knowing the difference between the active and the passive phase, you can optimize your site so that it places the user is the active phase as quickly as possible (thusly minimzing the amount of time in the passive phase).
+
+### Preemptive Start
+### Early Completion
+### Progress Indicators
 
 ## Conclusion
 "The dominant cost of waiting is an emotional one: stress, boredom, that nagging sensation that one’s life is slipping away. The last thing we want to do with our dwindling leisure time is squander it in stasis. We’ll never eliminate lines altogether, but a better understanding of the psychology of waiting can help make those inevitable delays that inject themselves into our daily lives a touch more bearable" - Alex Stone, The New York Times
@@ -48,3 +55,4 @@ The Safari browswer for iOS provides a "Top Hit" selection whenever a user is in
  - [Psychology of Queueing: A Case Study of Universal Studios Singapore](http://www.iaapa.org/news/funworld/funworld-magazine/psychology-of-queueing)
  - [Why Performance Matters, Part 2](https://www.smashingmagazine.com/2015/11/why-performance-matters-part-2-perception-management/)
  - [Why Performance Matters, Part 1](https://www.smashingmagazine.com/2015/09/why-performance-matters-the-perception-of-time/)
+ - [Why Performance Matters, Part 3](https://www.smashingmagazine.com/2015/12/performance-matters-part-3-tolerance-management/)
