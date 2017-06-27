@@ -22,17 +22,29 @@ Waiting can be divided into 2 phases, the active phase and the passive phase. Th
 
  - Reveal results of activity. What was the wait time, what was the average estimated wait time?
 
+## JUST NOTICABLE DIFFERENCE (20% RULE) ([Weber-Fechner Law](https://en.wikipedia.org/wiki/Weber%E2%80%93Fechner_law))
+Some of you may have worked on increasing performance before, only to send it to the users and be told "doesn't look different to me", here is a rule-of-thumb to help prevent that in the future. Most users what notice any changes in performance unless there is a 20% change. That means if your page loads in 5 seconds, a user likely won't notice a difference unless you suddenly drop that down to 4 seconds. This pendulum swings both ways, if there is a resource intensive feature that ends up increasing pageload times, it is unlikely that many users will notice, so long as you keep the increase under 20% of what it was previously doing. 
+
+Bear in mind that noticable does not equate to meaningful, users may begin to notice a difference with a 20% improvment, but they won't be amazed by any means, more work is required.
+
 ## REFLECTING
 ### THE AIRPORT & THE BAGGAGE - REVISITED
 This story highlights that waiting is what users had a problem with, not the total amount of time it took their luggage to reach the carousel. By having users spending more time in the active phase (walking) and less time in the passive phase (waiting) they were able to reduce the number of complaints they recieved to nearly 0.
 
 ### WHERE THE MAGIC HAPPENS - REVISITED
-Disney attacks waiting on multiple fronts. By providing an overexaggrated wait-time estimate, they are setting user expectations, and then surpassing them. By providing distractions during the time patrons are in a queue, -*-*-*-*-*-*-*-
+Disney attacks waiting on multiple fronts. By providing an overexaggrated wait-time estimate, they are setting user expectations, and then surpassing them. By providing distractions they are helping to decrease the amount of time their patrons spend in the passive phase. By keeping one line that makes a steady trickle of progress, their users feel they are progressing and getting closer to their goal.
 
 ## WHAT ARE OTHER TECH COMPANIES DOING?
 Youtube makes an effort to get users into the active phase as quickly as possible. They could spend 30 seconds downloading the full video to your browser before playing, thus putting the user in the passive phase for that length of time. They instead only download the first few seconds before playing the video (switching the user to the active phase) and continue downloading the rest of the video in the background.
 
 The Safari browswer for iOS provides a "Top Hit" selection whenever a user is inputting a new url into the search bar. The top hit is the website safari thinks is the most likely one you are trying to type in. As soon as any website appears as an option for the Top Hit, Safari will begin downloading the website in the background. If the user does chose that site, their website will already be loaded on the phone.
 
+## What can you do?
+
+## Conclusion
+"The dominant cost of waiting is an emotional one: stress, boredom, that nagging sensation that one’s life is slipping away. The last thing we want to do with our dwindling leisure time is squander it in stasis. We’ll never eliminate lines altogether, but a better understanding of the psychology of waiting can help make those inevitable delays that inject themselves into our daily lives a touch more bearable" - Alex Stone, The New York Times
+
 ## ADDITIONAL INFORMATION
  - [Psychology of Queueing: A Case Study of Universal Studios Singapore](http://www.iaapa.org/news/funworld/funworld-magazine/psychology-of-queueing)
+ - [Why Performance Matters, Part 2](https://www.smashingmagazine.com/2015/11/why-performance-matters-part-2-perception-management/)
+ - [Why Performance Matters, Part 1](https://www.smashingmagazine.com/2015/09/why-performance-matters-the-perception-of-time/)
