@@ -47,13 +47,13 @@ Knowing the difference between the active and the passive phase, you can optimiz
 ### Preemptive Start
 The most time-intensive part of nearly every website is the amount of time it takes to load a page, an about 90% of that time can be attributed to getting all html, js, css, and other assets to through the network to the user's computer. By smartly requesting the resources your webpages need you can drasticaly increase load times. Take a look at the following.
     
-    * dns-prefetch
-    * preconnect
-    * prerender
-    * prefetch
-    * preload
-    * async
-    * defer
+    dns-prefetch
+    preconnect
+    prerender
+    prefetch
+    preload
+    async
+    defer
 reduce your javascript/css usage
 only load the js you need, have well-formed html, then load non-essential css/js after the onLoad
 ### Early Completion
