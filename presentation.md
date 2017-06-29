@@ -54,9 +54,15 @@ The most time-intensive part of nearly every website is the amount of time it ta
     preload
     async
     defer
-reduce your javascript/css usage
-only load the js you need, have well-formed html, then load non-essential css/js after the onLoad
+
+### REDUCE PROJECT SIZE
+The smaller you make you make each page (focusing on the resources loaded) the faster it will load. Fewer loaded resources is better, and smaller loaded resources is better.
+
+Another option is to load a minimal amount of css and javascript, and use javascript to load the remainder of your scripts and styles once the bare essentials are fully loaded.
+
 ### Early Completion
+The most practicle case of this is to only html and necessary resources for content loaded in the viewport onLoad. Once that has been achieved, loading will begin for the rest of the page's content. Amazon and eBay are experts of doing this. A similar example of this technique is when youtube loads part of their video and begins playing it, and downloads the rest.
+
 ### Progress Indicators
 
 ## Conclusion
