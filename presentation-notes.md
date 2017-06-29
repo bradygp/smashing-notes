@@ -43,3 +43,22 @@
 
 ## Houston Airport
   - Passengers: 1m active & 7m passive --> 6m active & 2m passive
+
+# What can you do?
+  - Optimize for the active phase
+  - 90% of page load times is attribuatable to the network
+
+## Get content ASAP
+  - Get content painted on the browser ASAP
+    - Small initial page load (with defered scripts, styles, images)
+    - use cacheing
+    - optimize how assets are loaded (`prefetch`, `preconnect`, etc.) [best bet]
+  - Improve Waiting (if you *really* can't remove it)
+    - Show actual progress in the progress bar
+    - what's happening during the progress bar
+    - unique/creative 'progress bar'
+    - Task the user while waiting (form on file upload) (mini-game)
+
+# Conclusion
+ > The dominant cost of waiting is an emotional one: stress, boredom, that nagging sensation that one’s life is slipping away. The last thing we want to do with our dwindling leisure time is squander it in stasis. We’ll never eliminate lines altogether, but a better understanding of the psychology of waiting can help make those inevitable delays that inject themselves into our daily lives a touch more bearable
+ > - Alex Stone, The New York Times
