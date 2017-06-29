@@ -21,7 +21,25 @@
 
 ## Disney
   - You have to wait at disney, no way around it (yet)
-  
+  - They are upfront with how long people will be waiting (they often overestimate)
+  - Lines are filled with mini-games and things to look at (keep people busy)
+  - Disney characters dispatched to overcrowded lines
 
 # Active Phase & Passive Phase
+  - Active Phase - Waiting with some kind of mental or physical activity
+    - riding a bike
+  - Passive Phase - Waiting with no sense of choice/control
+    - waiting in a line
+# Just Noticable Difference (20% Rule)
+  - performance increases need to be %20+ to be noticable
+  - the reverse is true
+  - noticable != meaningful
+
+# Examples
 ## Cross Walks
+  - Most city cross walk buttons don't function
+  - They are there to give the pedestrian a sense of control
+    - passive phase -> active phase
+
+## Houston Airport
+  - Passengers: 1m active & 7m passive --> 6m active & 2m passive
