@@ -64,6 +64,12 @@ Another option is to load a minimal amount of css and javascript, and use javasc
 The most practicle case of this is to only html and necessary resources for content loaded in the viewport onLoad. Once that has been achieved, loading will begin for the rest of the page's content. Amazon and eBay are experts of doing this. A similar example of this technique is when youtube loads part of their video and begins playing it, and downloads the rest.
 
 ### Progress Indicators
+You should try and optimize as much as possible so that the user doesn't have to wait on progress bars/spinners, however there are times when you're doing a process heavy task that needs time. Here are things you can do so the wait doesn't feel as long
+ - Make the progress indicator show actual progress
+ - Allow users to perform a task while waiting, such as completing a form while uploading files or playing a mini-game while waiting.
+ - Explain what is happening during the wait time
+ - If they are waiting in a shared queue, tell them where they are at in the queue. Shared wait times feel shorter.
+ - make the user feel comfortable
 
 ## Conclusion
 "The dominant cost of waiting is an emotional one: stress, boredom, that nagging sensation that one’s life is slipping away. The last thing we want to do with our dwindling leisure time is squander it in stasis. We’ll never eliminate lines altogether, but a better understanding of the psychology of waiting can help make those inevitable delays that inject themselves into our daily lives a touch more bearable" - Alex Stone, The New York Times
